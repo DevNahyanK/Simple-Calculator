@@ -7,7 +7,7 @@ const answer = await inquirer.prompt([
     { message: "Enter your First Number", type: "number", name: "firstNumber" },
     { message: "Enter your Second Number", type: "number", name: "secondNumber" },
     {
-        message: "Select the one Operator",
+        message: " Plz Select the one Operator",
         type: "list",
         name: "operator",
         choices: ["Addition", "Subtraction", "Multiplication", "Division"],
